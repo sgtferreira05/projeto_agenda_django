@@ -5,13 +5,17 @@ from django.utils import timezone
 # id(primary key - auto incremented)
 # first_name(string), last_name(string), phone(string), email (email), message(text), created_date(date), description(text), category(foreign key), show(boolean), picture(image)
 
-#depois
-#owner(foreign key)
+# depois
+# owner(foreign key)
+
+# blank=True -> pode ser vazio no form
+# null=True -> pode ser nulo no banco de dados
 
 
 class Contact(models.Model):
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50, blank=True)
+    callsign = models.CharField(max_length=10)
     saram = models.CharField(max_length=7, blank=True)
     phone = models.CharField(max_length=20)
     email = models.EmailField()
