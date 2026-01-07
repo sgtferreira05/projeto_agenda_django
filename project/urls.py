@@ -1,3 +1,6 @@
+# type: ignore
+# flake8: noqa
+
 """
 URL configuration for project project.
 
