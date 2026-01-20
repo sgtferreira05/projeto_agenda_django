@@ -8,8 +8,6 @@ from django.contrib.auth.models import User
 
 # id(primary key - auto incremented)
 # first_name(string), last_name(string), phone(string), email (email), message(text), created_date(date), description(text), category(foreign key), show(boolean), picture(image)
-
-# depois
 # owner(foreign key)
 
 # blank=True -> pode ser vazio no form
