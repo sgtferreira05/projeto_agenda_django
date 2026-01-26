@@ -43,7 +43,8 @@ Delete a contact
 ---
 
 ## 🚀 How to Run the Project
-git clone https://github.com/yourusername/project-name
+git clone https://github.com/sgtferreira05/projeto_agenda_django
+
 cd project-name
 python main.py
 
