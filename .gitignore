@@ -7,6 +7,8 @@ db.sqlite3
 static/
 media/
 local_settings.py
+project/local_settings.py
+project/local_settings.pyy
 
 
 # Backup files # 
@@ -139,3 +141,11 @@ GitHub.sublime-settings
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history
+
+# Logs
+*.log
+gunicorn-error-log
+
+# Local settings
+project/local_settings.py
+project/local_settings.pyy
